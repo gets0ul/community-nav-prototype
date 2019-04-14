@@ -111,7 +111,7 @@ body {
       margin: 0 $base-unit * 6;
       padding-right: 5px;
       position: relative;
-
+      
       &.more-menu {
         display: none;
       }
@@ -120,6 +120,8 @@ body {
         color: $turquoise;
         justify-self:flex-start;
         margin-right: 50px;
+        flex-basis: auto;
+        transition: all 2s ease-in-out;
 
         &.isOpenSubmenu {
           color: $white;
